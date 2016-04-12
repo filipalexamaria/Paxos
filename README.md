@@ -26,3 +26,7 @@ Paxos est le plus important algorithme dans la distribution de calcul
 -auteur impose sa proposition à tout le monde
 
 -tout le monde decide
+
+#Problem avec omega 
+
+-plusieurs noeuds peuvent être initialement proposants
