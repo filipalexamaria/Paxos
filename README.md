@@ -21,4 +21,8 @@ Paxos est le plus important algorithme dans la distribution de calcul
 
 -duplication de message, réordonnancement, moins;
 
-élire un seul auteur en utilisant omega
+#Elire un seul auteur en utilisant omega
+
+-auteur impose sa proposition à tout le monde
+
+-tout le monde decide
