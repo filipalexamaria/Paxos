@@ -1,7 +1,7 @@
-package cocagne.paxos.practical;
+package filipalexamaria.paxos.practical;
 
-import cocagne.paxos.essential.EssentialProposer;
-import cocagne.paxos.essential.ProposalID;
+import filipalexamaria.paxos.essential.EssentialProposer;
+import filipalexamaria.paxos.essential.ProposalID;
 
 public interface PracticalProposer extends EssentialProposer {
 
