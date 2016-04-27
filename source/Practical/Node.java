@@ -1,4 +1,4 @@
-package cocagne.paxos.practical;
+package filipalexamaria.paxos.practical;
 
 import cocagne.paxos.essential.EssentialLearner;
 import cocagne.paxos.essential.EssentialLearnerImpl;
