@@ -1,4 +1,4 @@
-package cocagne.paxos.practical;
+package filipalezamaria.paxos.practical;
 
 import cocagne.paxos.essential.EssentialAcceptorImpl;
 import cocagne.paxos.essential.ProposalID;
