@@ -1,4 +1,4 @@
-package cocagne.paxos.essential;
+package filipalexamaria.paxos.essential;
 
 
 
