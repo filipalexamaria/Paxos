@@ -42,19 +42,19 @@ Paxos est le plus important algorithme dans la distribution de calcul
 
 python
 
-essential.py
+#essential.py
 
 Ce module fournit une mise en oeuvre directe et minimale de l'algorithme Paxos essentiel. L'objectif principal de ce module est de l'éducation, car il permet un contraste facile entre la mise en œuvre de l'algorithme et celui de la pure pour des raisons pratiques améliorées.
 
-practical.py
+#practical.py
 
 Ce module améliore l'algorithme Paxos essentiel et ajoute le support pour les choses de suivi politica que le leadership, NACKs et persistance de l'état.
 
-functional.py
+#functional.py
 
 Ce module fournit une Paxos entièrement fonctionnelle que l'application utilise un mécanisme simple pour détecter l'échec du leadership coeur ne bat plus et de récupération initiés.
 
-external.py
+#external.py
 
 Ce module fournit la version de practical.py Cette année prend en charge l'utilisation du leadership de gestion externe pour piloter des détecteurs de défaillance améliorée. Ce module ne fournit pas une solution entièrement fonctionnelle à la direction de la gestion, comme le fait functional.py. Cependant, il sert de base pour le leadership avril beaucoup plus souple, spécifique à l'application de gestion.
 
