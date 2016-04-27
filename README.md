@@ -58,3 +58,6 @@ Ce module fournit une Paxos entièrement fonctionnelle que l'application utilise
 
 Ce module fournit la version de practical.py Cette année prend en charge l'utilisation du leadership de gestion externe pour piloter des détecteurs de défaillance améliorée. Ce module ne fournit pas une solution entièrement fonctionnelle à la direction de la gestion, comme le fait functional.py. Cependant, il sert de base pour le leadership avril beaucoup plus souple, spécifique à l'application de gestion.
 
+#Test
+
+Le répertoire racine de test du référentiel de code source contient les fichiers unittest Utilisé pour exercer la mise en œuvre. Les tests primaires est écrit en Python et correspondent aux modules essentiels, pratiques, fonctionnels et durables. Les tests de Java, qui est également écrit en Python, enveloppent les classes Java avec une interface compatible et utiliser les tests unitaires en Python pour exercer l'application Java. L'interpréteur Jython est nécessaire pour les tests en cours d'exécution CES, mais il est pas nécessaire lors de l'exécution.
