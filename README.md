@@ -13,6 +13,7 @@ Implémentations à la fois Python et Java est fourni.
 Paxos est le plus important algorithme dans la distribution de calcul 
 
 #Problème de consensus
+
 -Validité- seulement les valeurs propose peut etre decide; 
 
 -Acord-  un noeud peut decide une valeur; 
@@ -38,23 +39,24 @@ Paxos est le plus important algorithme dans la distribution de calcul
 #Problem avec omega 
 
 -plusieurs noeuds peuvent être initialement proposants
+
 #Implémentations
 
 python
 
-#essential.py
+#essential.java
 
 Ce module fournit une mise en oeuvre directe et minimale de l'algorithme Paxos essentiel. L'objectif principal de ce module est de l'éducation, car il permet un contraste facile entre la mise en œuvre de l'algorithme et celui de la pure pour des raisons pratiques améliorées.
 
-#practical.py
+#practical.java
 
 Ce module améliore l'algorithme Paxos essentiel et ajoute le support pour les choses de suivi politica que le leadership, NACKs et persistance de l'état.
 
-#functional.py
+#functional.java
 
 Ce module fournit une Paxos entièrement fonctionnelle que l'application utilise un mécanisme simple pour détecter l'échec du leadership coeur ne bat plus et de récupération initiés.
 
-#external.py
+#external.java
 
 Ce module fournit la version de practical.py Cette année prend en charge l'utilisation du leadership de gestion externe pour piloter des détecteurs de défaillance améliorée. Ce module ne fournit pas une solution entièrement fonctionnelle à la direction de la gestion, comme le fait functional.py. Cependant, il sert de base pour le leadership avril beaucoup plus souple, spécifique à l'application de gestion.
 
